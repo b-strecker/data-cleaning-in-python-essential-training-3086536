@@ -3,9 +3,9 @@
 	"dockerfile": "Dockerfile",
 	"context": "..",
 	"args": { 
-	    "VARIANT": "3.13-bookworm",
-	    "NODE_VERSION": "lts/*"
-	}
+        "VARIANT": "3.13-bookworm",
+        "NODE_VERSION": "18.20.8"
+    }
     },
     "extensions": [
 		"GitHub.github-vscode-theme",
